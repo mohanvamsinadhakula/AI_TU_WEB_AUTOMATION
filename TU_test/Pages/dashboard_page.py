@@ -18,7 +18,7 @@ class DashboardPage:
         self.refresh_button = page.get_by_role("button", name="Refresh videos")
         self.video_summary = page.locator("text=Video Summary")
         self.key_metrics = page.locator("text=Key Metrics")
-        self.peak_hourly = page.locator("text=Popular times")
+        self.peak_hourly = page.locator("text=Peak Hourly Crowd")
 
         # --- Filter Buttons ---
         self.today_button = page.get_by_role("button", name="Today")
